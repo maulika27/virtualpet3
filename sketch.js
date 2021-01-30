@@ -4,7 +4,7 @@ var fedTime,lastFed,currentTime;
 var feed,addFood;
 var foodObj;
 var gameState,readState;
-var milkImg;
+
 
 function preload(){
 sadDog=loadImage("images/Dog.png");
@@ -12,7 +12,7 @@ happyDog=loadImage("images/happy dog.png");
 gardenImg=loadImage("images/Garden.png");
 washroomImg=loadImage("images/Wash Room.png");
 bedroomImg=loadImage("images/Bed Room.png");
-milkImg = loadImage("images/ mailk.png")
+
 }
 
 function setup() {
